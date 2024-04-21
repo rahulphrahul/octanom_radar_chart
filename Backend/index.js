@@ -1,6 +1,6 @@
 const express = require('express');
-const Performance = require("./models/userModel");
-const userRoutes = require('./routes/userRoutes');
+const Performance = require("./models/perfomanceModel");
+const userRoutes = require('./routes/perfomanceRoutes');
 const dbConnect = require("./config/dbConnect");
 const cors = require('cors');
 const http = require('http');
@@ -45,7 +45,7 @@ io.on('connection', (socket) => {
   });
 });
 
-app.use('/api/user', userRoutes);
+app.use('/api/perfomance', userRoutes);
 
 server.listen(PORT, () => {
   console.log("Server is listening on ", PORT);

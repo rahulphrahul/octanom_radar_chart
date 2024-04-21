@@ -1,6 +1,6 @@
 // Import necessary modules and User model
 const mongoose = require("mongoose");
-const Performance = require("../models/userModel");
+const Performance = require("../models/perfomanceModel");
 const jwt = require("jsonwebtoken");
 const cron = require('node-cron'); // Import node-cron
 

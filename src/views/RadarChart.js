@@ -9,7 +9,7 @@ const RadarChart = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:8000/api/user/");
+        const response = await fetch("http://localhost:8000/api/perfomance/");
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }
