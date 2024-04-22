@@ -11,7 +11,7 @@ const App = () => {
           backgroundColor: "#e8dce5",
         }}
       >
-        <h1>Radar Chart Example</h1>
+        <h1>Perfomance Analysis</h1>
       </header>
       <RadarChart />
       <footer
